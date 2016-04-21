@@ -20,6 +20,15 @@ padding:60px 50px;
 .bg-grey{
 background-color:#f6f6f6;
 }
+.logo {
+    font-size: 200px;
+}
+@media screen and (max-width: 768px) {
+    .col-sm-4 {
+        text-align: center;
+        margin: 25px 0;
+    }
+}
 </style>
 <body>
 <div class="jumbotron text-center">
@@ -30,17 +39,29 @@ background-color:#f6f6f6;
   <button type="button" class="btn btn-danger">Subscribe</button>
 </div>
 <div class="container-fluid">
-
+<div class="row">
+<div class="col-sm-8">
 <h2>About Company Page</h2>
 <h4>TECHBULLS SOFTWARE SERVICES Pvt.LTD<h4>
 <p>Established in 2011 having around 25 employees.</p>
 <button class="btn btn-default btn-lg">Get In Touch</button>
-
 </div>
+<div class="col-sm-4">
+<span class="glyphicon glyphicon-signal logo"></span>
+</div>
+</div>
+
 <div class="container-fluid bg-grey">
+<div class="row">
+<div class="col-sm-4">
+<span class="glyphicon glyphicon-signal logo"></span>
+</div>
+<div class="col-sm-8">
 <h2>Our Values</h2>
 <h4><strong>MISSION:</strong>be a fortune 500 company</h4>
 <h4><strong>VISION:</strong>make the world a better palce through technology</h4>
 </div>
+</div>
+
 </body>
 </html>
